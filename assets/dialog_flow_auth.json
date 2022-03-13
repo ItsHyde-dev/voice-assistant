@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "newagent-saxy",
+  "private_key_id": "52981d4a461221085090b03d1c7ac39d603ec5a1",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCdbmJ6vZVhjGMV\nn0BZWIlKWgHQyQ3m41cP/KZfRrEbpGmGixFL149pYFW1nRCMTubSyP8dJbrpND3Y\nbUx3KZxrF1kxYfBq63CuJ4Hn9E8/WpEicbXxUqgWQ2rPNjpviW0yZN4pp2LuteX6\n1qFT9/nLEk5wJWmTu7Js10bVZgNu+B8tTaeUjcK6YuU9YwZLHc2B8F6voTKOnak0\nuU7perNiQOAywg75C3E/cNIcNpJURIA8/jKLcKDM9DMRKiCY+VeElC7U/qKgSbS6\n+20qfOWo4f4eJ20ljTYvv6TqCIqYyoGeV8R1Lk9Ph/O2DB7oxImTNrSYi5dlwnXO\nQ8Rle/W3AgMBAAECggEAKW3Xl6JVcdbOam2+suR0OK9IBAgs0uJn0mqz46XITNRu\n+ruVISbIdDwoQgNjy/ClmLnRPPvlXKJlVhOpSECYi6wYykCSUqjDvejirEZkJnFw\neSaAcVHFrxotvPrx1NFO/bCCsGZ+x//xVhnuWZkL0M9v+d42kuyVj0P1vYm7hJN4\nfYV4PyHeSj0vcvWrVVFmOV9FIlHDKfb5xFvMXzuCyHDjbrllu1AynaWWsiQLRIx/\n5E26T4inf3AUYhLSGalC8UT/ymI436BgDrOLBe8uS09KNvRyUkQF5F2l7DocAheb\ns5bO/ahLMA2TQq4ugJL2A2JvNUsaBQh1UtcSySMgSQKBgQDNC97J22W8sjdQJIcC\nDu6IShgKPeZHGokTNK0grntuto2KJjxWkCiayQ8d0RSA9cUokBXWKsrhZC2RbM97\nVokKJh1ygRDZ7ajn3QfmGoY834ELtPxwIt39b1uH8z1cYcqTz6ldDiT11CAQBkft\nXPaGIQLyEbXLo6Sqaryhmvm5DwKBgQDEjXNSl7/HNlWMxIf/Wgvnp6tYpMdfrsyx\n6oBKiWcZVACGUY/6WWe/kYjz++MSsFdNgq7sAA+Lf/fGFpKPC95G390ahQQzjxxz\nuudxCs9MU3emWyVQYFmOlhQtFgYsQon0g4NfBDBWqf72e3GOemEANmXsIyfkJPAb\nqJMJ4WBo2QKBgHX5bW7Ar/F4rICM86zIgI+j6d8CrFqett15Al96ZIRXvmoNA8xe\nVy5vniXupRhpz8090YKOznoOFHXGoD37lQ9kzK6T+ekZZ4Q4VRIckr21bt8Ye+Hc\n/dKSXpyC4/wiO9b9tRlYSQWzzdrKclnskd6sYbB7ZhjLh7ORhASLUUEbAoGAWqdv\nADITdvtde96NZz4N7ZuM0Qa3Gi+SI6En6Lj0/16aG1l1EZ+41Ud3piiQM+d3bL2Q\nljL0+H9eNVPl5uova/sGjJu7M1iXY91Zr+6va+G3dtflHuxBgh1AUwcsc6+A13Ds\n358b+GzRtrd6yZ8yLBnq6n3QgU50HB2lK9JyWAkCgYBMi2NcEJvKXmbkzG1cjZ/f\nx3D7q7DjE0XBkmU0wbDO8rzF9ms+Q33uZapLfo3qWc18m236gZ4T0SBa5NMCHjvd\nvD8/muR/pRBpDfyEF0DKd1gEg5UgKNHSDaS3BoXewFp4Xlfd1quITP1PD7CR9Kmy\n84arSf/gxdr2btgOKCxq2Q==\n-----END PRIVATE KEY-----\n",
+  "client_email": "voice-assistant-ai@newagent-saxy.iam.gserviceaccount.com",
+  "client_id": "109586507546373769061",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/voice-assistant-ai%40newagent-saxy.iam.gserviceaccount.com"
+}
