@@ -85,34 +85,51 @@ class _Speech_UIState extends State<Speech_UI> {
       height: MediaQuery.of(context).size.height - 300,
       color: Colors.black,
       child: Center(
-          child: GestureDetector(
-        onTap: _speechEnabled
-            ? _speechToText.isListening
-                ? _stopListening
-                : _startListening
-            : _initSpeech,
-        child: Container(
-          height: 80,
-          width: 80,
-          decoration: BoxDecoration(
-            color: Colors.white,
-            shape: BoxShape.circle,
-            boxShadow: [
-              BoxShadow(
-                color: Colors.grey.withOpacity(0.5),
-                spreadRadius: 5,
-                blurRadius: 7,
-                offset: Offset(0, 3), // changes position of shadow
-              ),
-            ],
+          child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Text(
+            _lastWords,
+            style: TextStyle(
+              color: Colors.white,
+              fontSize: 20,
+              fontWeight: FontWeight.bold,
+            ),
           ),
-          child: Icon(Icons.mic,
-              size: 50,
-              color: _speechToText.isListening ? Colors.red : Colors.black),
-        ),
-        // onTap: () {
-        //   _startListening();
-        // },
+          Container(
+            padding: EdgeInsets.fromLTRB(0, 200, 0, 0),
+            child: GestureDetector(
+              onTap: _speechEnabled
+                  ? _speechToText.isListening
+                      ? _stopListening
+                      : _startListening
+                  : _initSpeech,
+              child: Container(
+                height: 80,
+                width: 80,
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  shape: BoxShape.circle,
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.grey.withOpacity(0.5),
+                      spreadRadius: 5,
+                      blurRadius: 7,
+                      offset: Offset(0, 3), // changes position of shadow
+                    ),
+                  ],
+                ),
+                child: Icon(Icons.mic,
+                    size: 50,
+                    color:
+                        _speechToText.isListening ? Colors.red : Colors.black),
+              ),
+              // onTap: () {
+              //   _startListening();
+              // },
+            ),
+          ),
+        ],
       )),
     );
   }
